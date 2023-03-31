@@ -21,6 +21,7 @@
 #include "rtwtypes.h"
 #include "BMS_Software_types.h"
 #include "BMS_Software.h"
+#include "BMS_Software1.h"
 
 extern float32 look1_iflf_binlc(float32 u0, const float32 bp0[], const float32
   table[], uint32 maxIndex);
@@ -29,6 +30,9 @@ extern float32 look1_iflf_binlx(float32 u0, const float32 bp0[], const float32
 extern void BMS_Software_EnabledSubsystem_Init(boolean *rty_y);
 extern void BMS_Software_EnabledSubsystem(boolean rtu_Enable, boolean rtu_u,
   boolean *rty_y);
+  extern void BMS_Software_EnabledSubsystem1(boolean rtu_Enable, boolean rtu_u,
+  boolean *rty_y);
+
 
 #endif                                 /* RTW_HEADER_BMS_Software_private_h_ */
 
