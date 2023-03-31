@@ -21,6 +21,7 @@
 #include "rtwtypes.h"
 #include "BMS_Software_types.h"
 #include "BMS_Software.h"
+#include "BMS_Software1.h"
 
 extern float32 look1_iflf_binlc(float32 u0, const float32 bp0[], const float32
   table[], uint32 maxIndex);
