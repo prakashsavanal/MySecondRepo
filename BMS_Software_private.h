@@ -34,7 +34,7 @@ extern void BMS_Software_EnabledSubsystem(boolean rtu_Enable, boolean rtu_u,
   boolean *rty_y);
 
 
-#endif                                 /* RTW_HEADER_BMS_Software_private_h_ */
+#endif                                 /* RTW_HEADER_BMS_Software_private_h_ * changes done by me/
 
 /*
  * File trailer for generated code.
